@@ -21,6 +21,10 @@ footer {
 }
 
 @media(max-width:768px) {
+    #main-logo-img {
+        height: 64px;
+    }
+
     .nav.navbar-nav li {
         text-align: right;
     }
