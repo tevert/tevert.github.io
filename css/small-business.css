@@ -9,6 +9,10 @@ body {
     background: #BBBBBB;
 }
 
+.panel {
+    background-color: #888888;
+}
+
 .navbar-fixed-top .nav {
     padding: 15px 0;
 }
