@@ -4,9 +4,25 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background: #555555;
+}
+
+.content {
     background: #BBBBBB;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 5em;
+}
+h1,h2,h3,h4,h5 {
+    color: #CC4025;
 }
 
 .panel {
@@ -19,6 +35,12 @@ body {
 
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
+}
+
+.attribution {
+    font-style: 'italic';
+    font-size: 0.8em;
+    color: #333333;
 }
 
 table {
