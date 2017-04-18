@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Foxgang</title>
+    <link>https://www.thefoxgang.com/</link>
+    <description>Recent content on The Foxgang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Apr 2017 10:40:56 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.thefoxgang.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Home</title>
+      <link>https://www.thefoxgang.com/home/</link>
+      <pubDate>Tue, 18 Apr 2017 10:40:56 -0500</pubDate>
+      
+      <guid>https://www.thefoxgang.com/home/</guid>
+      <description>Hi, I&amp;rsquo;m Tyler Evert I&amp;rsquo;m a software engineer in southeast Wisconsin. My main area of interest is in the field of DevOps, and helping companies hit a higher-performing state. I also love to travel, and spend most weekends gaming with friends. Feel free to reach out on any medium above if you want to talk about technology, travel, or anything else!
+What is a &amp;ldquo;foxgang&amp;rdquo;? &amp;ldquo;Foxgang&amp;rdquo; is a name I coined when I was 6 years old and decided I didn&amp;rsquo;t like &amp;ldquo;Tyler&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Serverless Architecture</title>
+      <link>https://www.thefoxgang.com/blog/serverless-architecture/</link>
+      <pubDate>Tue, 18 Apr 2017 10:40:56 -0500</pubDate>
+      
+      <guid>https://www.thefoxgang.com/blog/serverless-architecture/</guid>
+      <description>&#39;There Is No Cloud&#39; by Chris Watterston (www.chriswatterston.com) - Used with permission.  Tyler Explains... Serverless Architecture   Why Am I Explaining Things? In my experience from company to company, I&#39;ve found significant numbers of people (developers up to mid-level managers) who haven&#39;t had the time in their careers to follow the riot of new ideas, terms, and principles in the software world. I&#39;m starting a chain of posts as a glossary of sorts, to clear the air on some of these topics that I think are important.</description>
+    </item>
+    
+  </channel>
+</rss>
