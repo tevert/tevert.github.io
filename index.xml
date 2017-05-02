@@ -6,10 +6,28 @@
     <description>Recent content on The Foxgang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Apr 2017 10:40:56 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 02 May 2017 09:11:33 -0500</lastBuildDate>
     
 	<atom:link href="https://www.thefoxgang.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tyler Explains... Continuous Delivery</title>
+      <link>https://www.thefoxgang.com/blog/2017/05/continuous-delivery/</link>
+      <pubDate>Tue, 02 May 2017 09:11:33 -0500</pubDate>
+      
+      <guid>https://www.thefoxgang.com/blog/2017/05/continuous-delivery/</guid>
+      <description>&lt;p&gt;If there’s a buzzword more popularized and misunderstood than Agility or DevOps, it’s probably Continuous Delivery. As with many complex ideas, it’s difficult to understand at a glance, easy to make guesses about, and takes awhile before misconceptions become evident. My hope is that this post will allow some people to get a better understanding before vaulting into the unknown. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://www.thefoxgang.com/blog/2017/04/blog/</link>
+      <pubDate>Tue, 18 Apr 2017 10:40:56 -0500</pubDate>
+      
+      <guid>https://www.thefoxgang.com/blog/2017/04/blog/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Home</title>
@@ -22,12 +40,12 @@ What is a &amp;ldquo;foxgang&amp;rdquo;? &amp;ldquo;Foxgang&amp;rdquo; is a name
     </item>
     
     <item>
-      <title>Serverless Architecture</title>
-      <link>https://www.thefoxgang.com/blog/serverless-architecture/</link>
+      <title>Tyler Explains... Serverless Architecture</title>
+      <link>https://www.thefoxgang.com/blog/2017/04/serverless-architecture/</link>
       <pubDate>Tue, 18 Apr 2017 10:40:56 -0500</pubDate>
       
-      <guid>https://www.thefoxgang.com/blog/serverless-architecture/</guid>
-      <description>&#39;There Is No Cloud&#39; by Chris Watterston (www.chriswatterston.com) - Used with permission.  Tyler Explains... Serverless Architecture   Why Am I Explaining Things? In my experience from company to company, I&#39;ve found significant numbers of people (developers up to mid-level managers) who haven&#39;t had the time in their careers to follow the riot of new ideas, terms, and principles in the software world. I&#39;m starting a chain of posts as a glossary of sorts, to clear the air on some of these topics that I think are important.</description>
+      <guid>https://www.thefoxgang.com/blog/2017/04/serverless-architecture/</guid>
+      <description>Why Am I Explaining Things? In my experience from company to company, I&amp;rsquo;ve found significant numbers of people (developers up to mid-level managers) who haven&amp;rsquo;t had the time in their careers to follow the riot of new ideas, terms, and principles in the software world. I&amp;rsquo;m starting a chain of posts as a glossary of sorts, to clear the air on some of these topics that I think are important.</description>
     </item>
     
   </channel>
