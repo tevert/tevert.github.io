@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <!-- Latest bootstrap, because I'm too lazy to implement simple columns on my own -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+        <style>
+            img.favicon {
+                height: 16px;
+            }
+
+            .img-responsive {
+                margin: 0 auto;
+            }
+
+            .container {
+                margin-top: 50px;
+            }
+
+            #clock {
+                margin: 0 auto;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="300" class="img-responsive"/>
+                    <form method="get" action="https://www.google.com/search">
+                        <input type="text" name="q" size="31" class="form-control" value="">
+                    </form>
+                </div>
+            </div>
+            <hr/>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="list-group">
+                        <a type="button" href="http://www.internetfortheday.com" class="list-group-item">www.internetfortheday.com</a> 
+                    </div>
+
+                    <div class="list-group">
+                        <a type="button" href="https://www.reddit.com" class="list-group-item">
+                            <img class="favicon" src="https://www.reddit.com/favicon.ico"/>&nbsp;&nbsp;www.reddit.com
+                        </a>
+                        <a type="button" href="https://www.reddit.com/me/m/timewaste/" class="list-group-item">
+                            <img class="favicon" src="https://www.reddit.com/favicon.ico"/>&nbsp;&nbsp;Reddit - Timewaste
+                        </a>
+                        <a type="button" href="https://www.reddit.com/r/HeroesOfTheStorm" class="list-group-item">
+                            <img class="favicon" src="https://www.reddit.com/favicon.ico"/>&nbsp;&nbsp;Reddit - Heroes of the Storm
+                        </a>
+                        <a type="button" href="https://www.reddit.com/r/Overwatch" class="list-group-item">
+                            <img class="favicon" src="https://www.reddit.com/favicon.ico"/>&nbsp;&nbsp;Reddit - Overwatch
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a type="button" href="https://www.facebook.com" class="list-group-item">
+                            <img class="favicon" src="https://www.facebook.com/favicon.ico"/>&nbsp;&nbsp;Facebook
+                        </a>
+                        <a type="button" href="https://www.messenger.com" class="list-group-item">
+                            <img class="favicon" src="https://www.messenger.com/favicon.ico"/>&nbsp;&nbsp;Messenger
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="list-group">
+                        <a type="button" href="https://smile.amazon.com/gp/css/order-history" class="list-group-item">
+                            <img class="favicon" src="https://smile.amazon.com/favicon.ico"/>&nbsp;&nbsp;Amazon Orders
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a type="button" href="https://mint.intuit.com/overview.event" class="list-group-item">
+                            <img class="favicon" src="https://mint.intuit.com/favicon.ico"/>&nbsp;&nbsp;Mint
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a type="button" href="https://www.linkedin.com" class="list-group-item">
+                            <img class="favicon" src="https://www.linkedin.com/favicon.ico"/>&nbsp;&nbsp;LinkedIn
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a type="button" href="https://github.com/" class="list-group-item">
+                            <img class="favicon" src="https://github.com/favicon.ico"/>&nbsp;&nbsp;Github
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a type="button" href="https://tylerevert.visualstudio.com" class="list-group-item">
+                            <img class="favicon" src="https://tylerevert.visualstudio.com/favicon.ico"/>&nbsp;&nbsp;Personal VSTS
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a type="button" href="https://portal.azure.com" class="list-group-item">
+                            <img class="favicon" src="https://portal.azure.com/favicon.ico"/>&nbsp;&nbsp;Azure
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a type="button" href="https://drive.google.com" class="list-group-item">
+                            <img class="favicon" src="https://drive.google.com/favicon.ico"/>&nbsp;&nbsp;Google Drive
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="list-group">
+                        <a type="button" href="https://centare.hipchat.com/chat" class="list-group-item">
+                            <img class="favicon" src="https://centare.hipchat.com/favicon.ico"/>&nbsp;&nbsp;Centare HipChat
+                        </a>
+                        <a type="button" href="https://centare.hipchat.com/home" class="list-group-item">
+                            <img class="favicon" src="https://centare.hipchat.com/favicon.ico"/>&nbsp;&nbsp;Centare HipChat Admin
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a type="button" href="https://outlook.office365.com/owa/?realm=centare.com" class="list-group-item">
+                            <img class="favicon" src="https://outlook.office365.com/favicon.ico"/>&nbsp;&nbsp;Centare Email
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a type="button" href="https://centare.visualstudio.com/" class="list-group-item">
+                            <img class="favicon" src="https://centare.visualstudio.com/favicon.ico"/>&nbsp;&nbsp;Centare VSTS
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a type="button" href="https://tfs.centare.com/tfs" class="list-group-item">
+                            <img class="favicon" src="https://tfs.centare.com/tfs/favicon.ico"/>&nbsp;&nbsp;Centare TFS
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a type="button" href="https://build.centaredc.com/" class="list-group-item">
+                            <img class="favicon" src="https://build.centaredc.com/favicon.ico"/>&nbsp;&nbsp;Centare TeamCity
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a type="button" href="https://deploy.centaredc.com/" class="list-group-item">
+                            <img class="favicon" src="https://deploy.centaredc.com/img/icons/Octopus-96x96.png"/>&nbsp;&nbsp;Centare Octopus
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <div class="row">
+                <iframe id="clock" src="https://freesecure.timeanddate.com/clock/i5q326q6/n158/fs32/tt0/tw1/tm1" frameborder="0" width="578" height="39"></iframe>
+            </div>
+        </div>
+    </body>
+</html>
