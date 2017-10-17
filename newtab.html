@@ -6,6 +6,15 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         
+        <!-- Cryptowat.ch (https://github.com/cryptowatch/embed) -->
+        <script type="text/javascript" src="https://static.cryptowat.ch/assets/scripts/embed.bundle.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                var chart = new cryptowatch.Embed('bitfinex', 'btcusd', {height: 400});
+                chart.mount('#chart-container');
+            });
+        </script>
+
         <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
 
         <style>
@@ -54,16 +63,18 @@
                         <a type="button" href="https://www.reddit.com/r/HeroesOfTheStorm" class="list-group-item">
                             <img class="favicon" src="https://www.reddit.com/favicon.ico"/>&nbsp;&nbsp;Reddit - Heroes of the Storm
                         </a>
-                        <a type="button" href="https://www.reddit.com/r/Overwatch" class="list-group-item">
-                            <img class="favicon" src="https://www.reddit.com/favicon.ico"/>&nbsp;&nbsp;Reddit - Overwatch
-                        </a>
                     </div>
                     <div class="list-group">
                         <a type="button" href="https://www.facebook.com" class="list-group-item">
                             <img class="favicon" src="https://www.facebook.com/favicon.ico"/>&nbsp;&nbsp;Facebook
                         </a>
-                        <a type="button" href="https://www.messenger.com" class="list-group-item">
-                            <img class="favicon" src="https://www.messenger.com/favicon.ico"/>&nbsp;&nbsp;Messenger
+                    </div>
+                    <div class="list-group">
+                        <a type="button" href="https://gamebuddies.slack.com/messages" class="list-group-item">
+                            <img class="favicon" src="https://gamebuddies.slack.com/favicon.ico"/>&nbsp;&nbsp;Slack
+                        </a>
+                        <a type="button" href="https://milwaukee.slack.com/messages/" class="list-group-item">
+                            <img class="favicon" src="https://milwaukee.slack.com/favicon.ico"/>&nbsp;&nbsp;MKE Slack
                         </a>
                     </div>
                     <div class="list-group">
@@ -111,36 +122,23 @@
                 </div>
                 <div class="col-md-4">
                     <div class="list-group">
-                        <a type="button" href="https://centare.hipchat.com/chat" class="list-group-item">
-                            <img class="favicon" src="https://centare.hipchat.com/favicon.ico"/>&nbsp;&nbsp;Centare HipChat
-                        </a>
-                        <a type="button" href="https://centare.hipchat.com/home" class="list-group-item">
-                            <img class="favicon" src="https://centare.hipchat.com/favicon.ico"/>&nbsp;&nbsp;Centare HipChat Admin
+                        <a type="button" href="https://rhouse.runzheimer.com/SitePages/Home.aspx" class="list-group-item">
+                            <img class="favicon" src="https://rhouse.runzheimer.com/favicon.ico"/>&nbsp;&nbsp;RHouse
                         </a>
                     </div>
                     <div class="list-group">
                         <a type="button" href="https://outlook.office365.com/owa/?realm=centare.com" class="list-group-item">
-                            <img class="favicon" src="https://outlook.office365.com/favicon.ico"/>&nbsp;&nbsp;Centare Email
+                            <img class="favicon" src="https://outlook.office365.com/favicon.ico"/>&nbsp;&nbsp;Webmail
                         </a>
                     </div>
                     <div class="list-group">
-                        <a type="button" href="https://centare.visualstudio.com/" class="list-group-item">
-                            <img class="favicon" src="https://centare.visualstudio.com/favicon.ico"/>&nbsp;&nbsp;Centare VSTS
+                        <a type="button" href="https://runzheimer.visualstudio.com" class="list-group-item">
+                            <img class="favicon" src="https://runzheimer.visualstudio.com/favicon.ico"/>&nbsp;&nbsp;VSTS
                         </a>
                     </div>
                     <div class="list-group">
-                        <a type="button" href="https://tfs.centare.com/tfs" class="list-group-item">
-                            <img class="favicon" src="https://tfs.centare.com/tfs/favicon.ico"/>&nbsp;&nbsp;Centare TFS
-                        </a>
-                    </div>
-                    <div class="list-group">
-                        <a type="button" href="https://build.centaredc.com/" class="list-group-item">
-                            <img class="favicon" src="https://build.centaredc.com/favicon.ico"/>&nbsp;&nbsp;Centare TeamCity
-                        </a>
-                    </div>
-                    <div class="list-group">
-                        <a type="button" href="https://deploy.centaredc.com/" class="list-group-item">
-                            <img class="favicon" src="https://deploy.centaredc.com/img/icons/Octopus-96x96.png"/>&nbsp;&nbsp;Centare Octopus
+                        <a type="button" href="https://runzheimer.onelogin.com/client/apps" class="list-group-item">
+                            <img class="favicon" src="https://runzheimer.onelogin.com/favicon.ico"/>&nbsp;&nbsp;OneLogin
                         </a>
                     </div>
                 </div>
@@ -148,6 +146,12 @@
             <hr/>
             <div class="row">
                 <iframe id="clock" src="https://freesecure.timeanddate.com/clock/i5q326q6/n158/fs32/tt0/tw1/tm1" frameborder="0" width="578" height="39"></iframe>
+            </div>
+            <hr/>
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="chart-container"></div>
+                </div>
             </div>
         </div>
     </body>
