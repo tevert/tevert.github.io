@@ -18,6 +18,24 @@
         <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
 
         <style>
+            body {
+                background-color: #333333;
+            }
+
+            a.list-group-item {
+                background-color: #111111;
+                color: #AAAAAA;
+            }
+            a.list-group-item:hover, a.list-group-item:focus {
+                background-color: #000000;
+                color: #FFFFFF;
+            }
+
+            .form-control {
+                background-color: #111111;
+                color: #AAAAAA;
+            }
+
             img.favicon {
                 height: 16px;
             }
@@ -153,12 +171,8 @@
                     <div id="chart-container"></div>
                 </div>
                 <div class="cold-md-6">
-                    <a href="https://www.accuweather.com/en/us/new-york-ny/10007/astronomy-current-weather/349727" class="aw-widget-legal">
-                        <!--
-                        By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at https://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at https://www.accuweather.com/en/privacy.
-                        -->
-                    </a>
-                    <div id="awtd1508270839119" class="aw-widget-36hour"  data-locationkey="" data-unit="c" data-language="en-us" data-useip="true" data-uid="awtd1508270839119" data-editlocation="true" data-lifestyle="astronomy"></div><script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>
+                    <iframe style="display: block;" src="https://cdnres.willyweather.com/widget/loadView.html?id=74486" width="300" height="228" frameborder="0" scrolling="no"></iframe>
+                    <a style="height: 20px;margin: -20px 0 0 0;text-indent: -9999em;position: relative;z-index: 1;display: block" href="https://www.willyweather.com/wi/milwaukee-county/milwaukee.html" rel="nofollow">https://www.willyweather.com/wi/milwaukee-county/milwaukee.html</a>
                 </div>
             </div>
         </div>
