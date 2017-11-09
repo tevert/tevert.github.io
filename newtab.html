@@ -9,17 +9,9 @@
         <!-- Cryptowat.ch (https://github.com/cryptowatch/embed) -->
         <script type="text/javascript" src="https://static.cryptowat.ch/assets/scripts/embed.bundle.js"></script>
         <script type="text/javascript">
-            let symbols = [ "btc", "bch", "eth", "omg" ];
             $(document).ready(function() {
-                debugger;
-                for (let i = 0; i < symbols.length; i++) {
-                    let id = symbols[i] + '-chart-container';
-                    let e = $('<div></div>');
-                    e.attr("id", id);
-                    $('#crypto-charts').append(e);
-                    let chart = new cryptowatch.Embed('bitfinex', symbols[i] + 'usd', {height: 200});
-                    chart.mount('#' + id);
-                }
+                var chart = new cryptowatch.Embed('bitfinex', 'btcusd', {height: 400});
+                chart.mount('#chart-container');
             });
         </script>
 
@@ -162,7 +154,8 @@
             </div>
             <hr/>
             <div class="row">
-                <div class="col-md-6" id="crypto-charts">
+                <div class="col-md-6">
+                    <div id="chart-container"></div>
                 </div>
                 <div class="cold-md-6">
                     <iframe style="display: block;" src="https://cdnres.willyweather.com/widget/loadView.html?id=74486" width="300" height="228" frameborder="0" scrolling="no"></iframe>
