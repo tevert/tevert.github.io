@@ -9,9 +9,17 @@
         <!-- Cryptowat.ch (https://github.com/cryptowatch/embed) -->
         <script type="text/javascript" src="https://static.cryptowat.ch/assets/scripts/embed.bundle.js"></script>
         <script type="text/javascript">
+            let symbols = [ "btc", "bch", "eth", "omg" ];
             $(document).ready(function() {
-                var chart = new cryptowatch.Embed('bitfinex', 'btcusd', {height: 400});
-                chart.mount('#chart-container');
+                debugger;
+                for (let i = 0; i < symbols.length; i++) {
+                    let id = symbols[i] + '-chart-container';
+                    let e = $('<div></div>');
+                    e.attr("id", id);
+                    $('#crypto-charts').append(e);
+                    let chart = new cryptowatch.Embed('bitfinex', symbols[i] + 'usd', {height: 200});
+                    chart.mount('#' + id);
+                }
             });
         </script>
 
@@ -88,14 +96,6 @@
                         </a>
                     </div>
                     <div class="list-group">
-                        <a type="button" href="https://gamebuddies.slack.com/messages" class="list-group-item">
-                            <img class="favicon" src="https://gamebuddies.slack.com/favicon.ico"/>&nbsp;&nbsp;Slack
-                        </a>
-                        <a type="button" href="https://milwaukee.slack.com/messages/" class="list-group-item">
-                            <img class="favicon" src="https://milwaukee.slack.com/favicon.ico"/>&nbsp;&nbsp;MKE Slack
-                        </a>
-                    </div>
-                    <div class="list-group">
                         <a type="button" href="https://www.netflix.com" class="list-group-item">
                             <img class="favicon" src="https://www.netflix.com/favicon.ico"/>&nbsp;&nbsp;Netflix
                         </a>
@@ -132,11 +132,6 @@
                             <img class="favicon" src="https://portal.azure.com/favicon.ico"/>&nbsp;&nbsp;Azure
                         </a>
                     </div>
-                    <div class="list-group">
-                        <a type="button" href="https://drive.google.com" class="list-group-item">
-                            <img class="favicon" src="https://drive.google.com/favicon.ico"/>&nbsp;&nbsp;Google Drive
-                        </a>
-                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="list-group">
@@ -167,8 +162,7 @@
             </div>
             <hr/>
             <div class="row">
-                <div class="col-md-6">
-                    <div id="chart-container"></div>
+                <div class="col-md-6" id="crypto-charts">
                 </div>
                 <div class="cold-md-6">
                     <iframe style="display: block;" src="https://cdnres.willyweather.com/widget/loadView.html?id=74486" width="300" height="228" frameborder="0" scrolling="no"></iframe>
