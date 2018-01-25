@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Newtabs on The Foxgang</title>
+    <link>https://www.thefoxgang.com/newtab/</link>
+    <description>Recent content in Newtabs on The Foxgang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Apr 2017 10:40:56 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.thefoxgang.com/newtab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Newtab</title>
+      <link>https://www.thefoxgang.com/newtab/newtab/</link>
+      <pubDate>Tue, 18 Apr 2017 10:40:56 -0500</pubDate>
+      
+      <guid>https://www.thefoxgang.com/newtab/newtab/</guid>
+      <description>www.internetfortheday.com  &amp;nbsp;&amp;nbsp;www.reddit.com  &amp;nbsp;&amp;nbsp;Reddit - Timewaste  &amp;nbsp;&amp;nbsp;Reddit - Heroes of the Storm  &amp;nbsp;&amp;nbsp;Reddit - Overwatch   &amp;nbsp;&amp;nbsp;Facebook   &amp;nbsp;&amp;nbsp;Netflix    &amp;nbsp;&amp;nbsp;Amazon Orders   &amp;nbsp;&amp;nbsp;Mint   &amp;nbsp;&amp;nbsp;LinkedIn   &amp;nbsp;&amp;nbsp;Github   &amp;nbsp;&amp;nbsp;Personal VSTS   &amp;nbsp;&amp;nbsp;Azure    &amp;nbsp;&amp;nbsp;RHouse   &amp;nbsp;&amp;nbsp;Webmail   &amp;nbsp;&amp;nbsp;VSTS   &amp;nbsp;&amp;nbsp;OneLogin   &amp;nbsp;&amp;nbsp;Trip Viewer  &amp;nbsp;&amp;nbsp;Status Dashboard         $(document).</description>
+    </item>
+    
+  </channel>
+</rss>

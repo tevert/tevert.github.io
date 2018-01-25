@@ -22,10 +22,10 @@
     
     <item>
       <title>Blog</title>
-      <link>https://www.thefoxgang.com/blog/2017/04/blog/</link>
+      <link>https://www.thefoxgang.com/blog/2017/04/blog.html</link>
       <pubDate>Tue, 18 Apr 2017 10:40:56 -0500</pubDate>
       
-      <guid>https://www.thefoxgang.com/blog/2017/04/blog/</guid>
+      <guid>https://www.thefoxgang.com/blog/2017/04/blog.html</guid>
       <description></description>
     </item>
     
@@ -35,8 +35,17 @@
       <pubDate>Tue, 18 Apr 2017 10:40:56 -0500</pubDate>
       
       <guid>https://www.thefoxgang.com/home/</guid>
-      <description>Hi, I&amp;rsquo;m Tyler Evert I&amp;rsquo;m a software engineer in southeast Wisconsin. My main area of interest is in the field of DevOps, and helping companies hit a higher-performing state. I also love to travel, and spend most weekends gaming with friends. Feel free to reach out on any medium above if you want to talk about technology, travel, or anything else!
-What is a &amp;ldquo;foxgang&amp;rdquo;? &amp;ldquo;Foxgang&amp;rdquo; is a name I coined when I was 6 years old and decided I didn&amp;rsquo;t like &amp;ldquo;Tyler&amp;rdquo;.</description>
+      <description>Hi, I&#39;m Tyler Evert I&#39;m a software engineer in southeast Wisconsin. My main area of interest is in the field of DevOps, and helping companies hit a higher-performing state. I also love to travel, and spend most weekends gaming with friends. Feel free to reach out on any medium above if you want to talk about technology, travel, or anything else!
+What is a &#34;foxgang&#34;? &#34;Foxgang&#34; is a name I coined when I was 6 years old and decided I didn&#39;t like &#34;</description>
+    </item>
+    
+    <item>
+      <title>Newtab</title>
+      <link>https://www.thefoxgang.com/newtab/newtab/</link>
+      <pubDate>Tue, 18 Apr 2017 10:40:56 -0500</pubDate>
+      
+      <guid>https://www.thefoxgang.com/newtab/newtab/</guid>
+      <description>www.internetfortheday.com  &amp;nbsp;&amp;nbsp;www.reddit.com  &amp;nbsp;&amp;nbsp;Reddit - Timewaste  &amp;nbsp;&amp;nbsp;Reddit - Heroes of the Storm  &amp;nbsp;&amp;nbsp;Reddit - Overwatch   &amp;nbsp;&amp;nbsp;Facebook   &amp;nbsp;&amp;nbsp;Netflix    &amp;nbsp;&amp;nbsp;Amazon Orders   &amp;nbsp;&amp;nbsp;Mint   &amp;nbsp;&amp;nbsp;LinkedIn   &amp;nbsp;&amp;nbsp;Github   &amp;nbsp;&amp;nbsp;Personal VSTS   &amp;nbsp;&amp;nbsp;Azure    &amp;nbsp;&amp;nbsp;RHouse   &amp;nbsp;&amp;nbsp;Webmail   &amp;nbsp;&amp;nbsp;VSTS   &amp;nbsp;&amp;nbsp;OneLogin   &amp;nbsp;&amp;nbsp;Trip Viewer  &amp;nbsp;&amp;nbsp;Status Dashboard         $(document).</description>
     </item>
     
     <item>
